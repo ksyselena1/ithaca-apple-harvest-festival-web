@@ -1,0 +1,405 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+}
+.heading{
+    height: 300px;
+    position: relative;
+    text-align: center;
+}
+.heading img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 20px;
+    width: 100%;
+}
+
+.line {
+    font-family: sans-serif;
+    display: inline-block;
+    font-style: italic;
+    font-size: 20px;
+    color: #733F3F;
+}
+nav {
+    font-family: verdana, sans-serif;
+    background-color: #f6cfcf;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin-top: auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: #733F3F;
+    display: block;
+    border: 3px dotted #733F3F;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 8px;
+}
+nav ul li a:hover {
+  color: white;
+  border-color: white;
+}
+
+#window {
+    max-width: 1300px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+.middle {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+}
+strong{
+    color: #55172a;
+    text-shadow: 2px 2px 4px #fb7b9b;
+    font-size: 19px;
+}
+
+em{
+    color: #278832;
+    text-shadow: 2px 2px 2px #0c1b09;
+}
+.box{
+    display: flex;
+    flex-flow: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.box2{
+    display: flex;
+    flex-flow: row;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials{
+    font-family: 'Comic Sans MS', sans-serif;
+
+}
+
+main {
+    font-family: 'Comic Sans MS', sans-serif;
+    line-height: 25px;
+    background-color: #f6cfcf;
+    font-size: 18px;
+    color: black;
+    border: groove 5px #733F3F;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    color: #ff4949;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 4px 4px 8px black;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #733F3F;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 20px;
+  border-top: 2px solid;
+}
+
+.images {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+
+
+}
+
+.contactslist{
+    font-size: 19px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.act1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Sans MS', sans-serif;
+    line-height: 25px;
+    background-color: #f6cfcf;
+    font-size: 18px;
+    color: black;
+    border: groove 5px #733F3F;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 60%;
+}
+
+.act2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comic Sans MS', sans-serif;
+    line-height: 30px;
+    background-color: #f6cfcf;
+    font-size: 18px;
+    color: black;
+    border: groove 5px #733F3F;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+
+
+}
+blockquote{
+    padding-bottom: 30px;
+    font-family: "Bradley Hand", cursive;
+    line-height: 33px;
+    font-size: 22px;
+}
+
+footer {
+  color: white;
+  background-color: #733F3F;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.button {
+  align-self: flex-end;
+  margin: 20px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #733F3F;
+  font-size: 16px;
+  font-weight: bold;
+  color: #733F3F;
+  background-color: white;
+}
+
+textarea{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.button:hover {
+  color: white;
+  background-color: #733F3F;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Comic Sans MS";
+  font-size: 10px;
+}
+
+.interestform {
+  padding-top: 50px;
+  padding: 0 30px;
+}
+
+label {
+  font-size: 18px;
+  color: #2e2c2d;
+}
+
+input {
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #733F3F;
+  font-size: 15px;
+}
+.small{
+    width: 200px;
+}
+
+.smaller{
+    width: 70px;
+}
+textarea{
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #733F3F;
+    font-size: 15px;
+}
+
+.q{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.p{
+    display: flex;
+    flex-direction: row;
+}
+.space{
+    margin-left: 10px;
+}
+.agemessage{
+    padding-bottom: 20px;
+}
+
+.radio{
+    flex-direction: row;
+}
+
+.click{
+    padding-right: 20px;
+}
+
+
+/* error message */
+.error_message {
+  padding-left: 5px;
+  font-weight: bold;
+  color: red;
+  border-left: 5px red solid;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+}
+
+/* adjustment */
+.mobile{
+    display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+    .images{
+        padding-top: 50px;
+    }
+    h3{
+        padding: 30px;
+        font-size: 20px;
+    }
+    nav ul li{
+        font-size: 70%;
+    }
+    nav ul li a {
+        border: 3px dotted #733F3F;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 8px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        line-height: 25px;
+        font-size: 13px;
+    }
+    blockquote{
+        font-size: 90%;
+        line-height: 25px;
+    }
+    .box{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+    html{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    main{
+        display: flex;
+        font-size: 70%;
+        font-weight: normal;
+        flex-wrap: wrap;
+    }
+    .act1{
+        width: 80%;
+        margin: auto;
+
+    }
+    em{
+        text-shadow: none;
+        font-weight: bold;
+    }
+    strong{
+        font-size: 14px;
+    }
+    .interestform{
+        padding: 0 30px;
+        font-size: 80%;
+    }
+    .contain{
+        flex-direction: row;
+    }
+    .radio{
+        flex-direction: column;
+    }
+    .p{
+        flex-direction: column;
+    }
+    .mobile{
+        display: flex;
+    }
+    .desktop{
+        display: none;
+    }
+    .hidden{
+        display: none;
+    }
+    .space {
+        margin-left: 0px;
+    }
+    label{
+        font-size: 13px;
+    }
+    textarea{
+        font-size: 10px;
+    }
+    input{
+        font-size: 10px;
+    }
+
+}
