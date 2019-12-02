@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ithaca Apple Harvest Festival: FAQ</title>
+        <link href="styles/desktop.css" type="text/css"
+      rel="stylesheet" />
+        <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="scripts/validation.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="window">
+            <header>
+                <div class="heading">
+                    <img src="images/apples.png" alt="Background Image">
+                    <div class="text">
+                        <h1 class="centered">Ithaca Apple Harvest Festival</h1>
+                        <p class="line">One of Ithaca's Treasures!</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="arrival.html">Getting Here</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="Contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+        <h1>Frequently Asked Questions</h1>
+        <div class="box">
+            <main>
+                <div class="q1">
+                    <h3>Q: Who should I go with?</h3>
+                    <p>A: Go with anyone! It is free for all to attend and it is all-ages friendly! Take your friends, your family, or you can go by yourself. I recommend you meet new Cornell friends to go with!</p>
+                </div>
+                <div class="q2">
+                    <h3>Q: What should I wear?</h3>
+                    <p>A: Check the weather before you go. Dress appropriately. I recommend wear something comfortable but also pretty if you are planning on taking pictures! </p>
+                </div>
+                <div class="q3">
+                    <h3>Q: What should I bring?</h3>
+                    <p>A: Cash! Most vendors will ask for cash. I recommend to bring at least $20. If you are legal, bring your ID for wine. </p>
+                </div>
+                <div class="q4">
+                    <h3>Q: Any warnings?</h3>
+                    <p>A: There will be many bees! Be careful. </p>
+
+                </div>
+                <div class="q5">
+                    <h3>Q: Who should I contact or ask if I have more questions?</h3>
+                    <p>A: Go check out the <a href="contacts.html">Contacts page</a>. </p>
+                </div>
+            </main>
+        </div>
+
+        <!-- Interest Form section -->
+        <div class="flex">
+          <section class="interestform">
+          <h3>Ithaca Apple Harvest Festival Interest Form</h3>
+          <span class="error_message hidden" id="errorgeneral">
+            * Remember to fill out all required fields marked with '*'
+          </span>
+          <h4>Fill all fields marked with '*'</h4>
+
+          <form id="interestform" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2019fa/submit.php" novalidate>
+          <div class="q">
+            <label for="name">* Name:</label>
+            <span class="error_message hidden" id="nameerror">
+              * Name field required!
+            </span>
+            <input class="small" type="text" id="name" name="name" placeholder ="Your Name" required>
+          </div>
+
+          <div class="p">
+            <label for="age">* Age:</label>
+            <span class="error_message hidden mobile" id="ageerror2">
+              * Please provide a valid age!
+            </span>
+            <input type="number" class="smaller space" id="age" name="age" placeholder ="0" min="0" required>
+          </div>
+          <div class="agemessage">
+            <span class="error_message hidden desktop" id="ageerror">
+              * Please provide a valid age!
+            </span>
+          </div>
+
+          <div class="q">
+            <label>* Gender:</label>
+            <span class="error_message hidden" id="gendererror">
+              * Please select one option!
+            </span>
+            <div class="flex radio">
+              <div class="contain">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male" class="click">Male</label>
+              </div>
+              <div class="contain">
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" class="click">Female</label>
+              </div>
+              <div class="contain">
+                <input type="radio" id="disclose" name="gender" value="disclose">
+                <label for="disclose" class="click">I do not wish to say</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="q">
+            <label>* How did you hear about the festival?</label>
+            <span class="error_message hidden" id="hearerror">
+              * Please write a valid answer!
+            </span>
+            <textarea id="hear" cols="30" rows="2" minlength="1" placeholder="Friends, word of mouth, Instagram, web search, etc..." required></textarea>
+          </div>
+
+          <div class="q">
+            <label>* Expected Date to Attend:</label>
+            <span class="error_message hidden" id="dateerror">
+              * Please check at least one option!
+            </span>
+            <div>
+                <input type="checkbox" id="date1" name="date1" required>
+                <label for="date1">Friday, Sept. 27</label>
+            </div>
+            <div>
+                <input type="checkbox" id="date2" name="date2" required>
+                <label for="date2">Saturday, Sept. 28</label>
+            </div>
+            <div>
+                <input type="checkbox" id="date3" name="date3" required>
+                <label for="date3">Sunday, Sept. 29</label>
+            </div>
+            <div>
+                <input type="checkbox" id="date4" name="date4" required>
+                <label for="date4">Undecided</label>
+            </div>
+          </div>
+
+          <div class = "p">
+            <label for="numPeople">* How many people, including yourself, are going on this date?</label>
+            <span class="error_message hidden mobile" id="numPeopleerror2">
+              * At least one person is required! Remember to count yourself!
+            </span>
+            <input type="number" class="smaller space" id="numPeople" name="numPeople" min="1" placeholder="1" required/>
+          </div>
+          <div class="agemessage">
+            <span class="error_message desktop hidden" id="numPeopleerror">
+              * At least one person is required! Remember to count yourself!
+            </span>
+          </div>
+
+          <div class="q">
+            <label>* Activities you plan to do:</label>
+            <span class="error_message hidden" id="planserror">
+              * Please check at least one option!
+            </span>
+            <div>
+                <input type="checkbox" id="plan1" name="plan1" required>
+                <label for="plan1">Food and Drinks</label>
+            </div>
+            <div>
+                <input type="checkbox" id="plan2" name="plan2" required>
+                <label for="plan2">Performances</label>
+            </div>
+            <div>
+                <input type="checkbox" id="plan3" name="plan3" required>
+                <label for="plan3">Live Music</label>
+            </div>
+            <div>
+                <input type="checkbox" id="plan4" name="plan4" required>
+                <label for="plan4">Shop Clothes and Jewelries</label>
+            </div>
+            <div>
+                <input type="checkbox" id="plan5" name="plan5" required>
+                <label for="plan5">Take Photos</label>
+            </div>
+            <div>
+                <input type="checkbox" id="plan6" name="plan6" required>
+                <label for="plan6">Others</label>
+                <input type="text" id="other" name="other">
+            </div>
+          </div>
+
+          <div class="q">
+            <label>Questions/Concerns</label>
+            <textarea cols="30" rows="3"></textarea>
+          </div>
+
+          <input type="submit" class="button" >
+          </form>
+          </section>
+        </div>
+        <footer><p>© Selena Kang 2019</p></footer>
+    </div>
+    </body>
+</html>
